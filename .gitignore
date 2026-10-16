@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# 本地資料
+backend/clove.db
+*.db
+uploads/
+# 環境變數（含密碼，絕對不要上傳）
+.env
+.env.local
+.env.*.local
+# Node
+node_modules/
+frontend/dist/
+.DS_Store
